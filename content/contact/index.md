@@ -4,7 +4,7 @@ description = "Contact information"
 type = ["default"]
 +++
 
-## I'd love to hear from you
+You can reach me via [e-mail](mailto:ivan@schaller.sh) or the contact form below.
 
 {{< rawhtml >}}
 

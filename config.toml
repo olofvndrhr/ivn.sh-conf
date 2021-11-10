@@ -1,7 +1,6 @@
 baseurl         = "https://44n.ch"
 title           = "44n.ch - Ivan Schaller"
 languageCode    = "en-us"
-theme           = "hello-friend-ng"
 paginate        = 10
 timeZone        = "Europe/Zurich"
 
@@ -43,13 +42,23 @@ copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_
   dateformNumTime = "2006-01-02 15:04"
 
   # Subtitle for home
-  homeSubtitle = "Contact or find me on other platforms"
+  homeTitle = "Ivan Schaller"
+  homeSubtitle = "DevOps Engineer"
+  homeLinktext = "Find or contact me on other platforms"
+
+  # Set a background for the homepage
+  # backgroundImage = "assets/images/background.jpg"
+
+  # With this option on, the page user is able to set the scheme he wants. 
+  enableThemeToggle = true
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
   disableReadOtherPosts = true
 
   # Enable sharing buttons, if you like
   enableSharingButtons = true
+
+  enableGlobalLanguageMenu = false
 
   # Metadata mostly used in document's head
   description = "Personal site of Ivan Schaller"
