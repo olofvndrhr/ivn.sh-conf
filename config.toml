@@ -26,11 +26,12 @@ disableHugoGeneratorInject = false
 
 disableKinds = ["taxonomy", "term", "taxonomyTerm"]
 
+copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+
 [taxonomies]
   category = "categories"
   tag = "tags"
-
-copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [author]
   name = "Ivan Schaller"
@@ -56,7 +57,7 @@ copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_
   disableReadOtherPosts = true
 
   # Enable sharing buttons, if you like
-  enableSharingButtons = true
+  enableSharingButtons = false
 
   enableGlobalLanguageMenu = false
 

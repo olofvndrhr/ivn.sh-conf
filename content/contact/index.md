@@ -36,7 +36,7 @@ You can reach me via [e-mail](mailto:ivan@schaller.sh) or the contact form below
 				</div>
 			</div>
 			<div class="col-xs-12">
-        <button class="btn-lrg submit-btn" type="submit">Send</button>
+        <button class="theme-toggle wide primary" type="submit">Send</button>
 			</div>
 	</div>
 </div>
