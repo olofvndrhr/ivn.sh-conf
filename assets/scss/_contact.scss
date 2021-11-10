@@ -3,7 +3,7 @@
 input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
   font-size: 1.2em;
   color: #999;
-  top: -15px;
+  top: -20px;
   -webkit-transition: all 0.225s ease;
   transition: all 0.225s ease;
 }
