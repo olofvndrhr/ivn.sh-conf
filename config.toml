@@ -1,5 +1,5 @@
-baseurl         = "https://44n.ch"
-title           = "44n.ch - Ivan Schaller"
+baseurl         = "https://ivn.sh"
+title           = "ivn.sh - Ivan Schaller"
 languageCode    = "en-us"
 paginate        = 10
 timeZone        = "Europe/Zurich"
@@ -50,7 +50,7 @@ copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
 
-  # With this option on, the page user is able to set the scheme he wants. 
+  # With this option on, the page user is able to set the scheme he wants.
   enableThemeToggle = true
 
   # Set disableReadOtherPosts to true in order to hide the links to other posts.
@@ -68,7 +68,7 @@ copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "44n.ch - Ivan Schaller"
+    logoText     = "ivn.sh - Ivan Schaller"
     logoHomeLink = "/"
 
   [params.footer]
