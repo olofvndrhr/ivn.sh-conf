@@ -1,5 +1,5 @@
 +++
-title = "Lets Encrypt Bash Script - rewrite"
+title = "Lets Encrypt Bash hook - rewrite"
 description = "Improvements to a Lets Encrypt bash script"
 date = "2021-11-08"
 type = ["default"]
