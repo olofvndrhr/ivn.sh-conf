@@ -9,8 +9,9 @@ type = ["default"]
 
 ## Dockerization of gohfs
 
-https://github.com/olofvndrhr/gohfs
+#### https://github.com/olofvndrhr/gohfs
 
-To be deployed in my environment i needed this application in a containerized format. But the original developer did not have a container for it yet. So i created one with the [s6 overlay](https://github.com/just-containers/s6-overlay) for easy usermapping and failure detection.
+To be deployed in my environment I needed this application in a containerized format.
+But the original developer did not have a container for it yet.
+So I created one with the [s6 supervisor](https://github.com/just-containers/s6-overlay) for easy user mapping and failure detection.
 The pull request with the changes was accepted and can also be viewed at the [original repository](https://github.com/finzzz/gohfs).
-
