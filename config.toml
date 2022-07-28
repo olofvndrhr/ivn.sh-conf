@@ -87,16 +87,24 @@ copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_
   weight     = 1
   [menu.main.params]
     class = 'bold'
+
 [[menu.main]]
   identifier = "projects"
   name       = "Projects"
   url        = "/projects"
   weight     = 2
+
 [[menu.main]]
   identifier = "contact"
   name       = "Contact"
   url        = "/contact"
   weight     = 3
+
+[[menu.main]]
+  identifier = "links"
+  name       = "Links"
+  url        = "https://links.ivn.sh/"
+  weight     = 4
 
 
 [[params.social]]

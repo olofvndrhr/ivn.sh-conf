@@ -23,8 +23,7 @@ In the development area, I work with automation of networking tasks, administrat
 
 ---
 
-### My skills:
-> Rated from 1 to 10
+### My skills: (`Rated from 1 to 10`)
 
 #### Languages
 
@@ -50,7 +49,7 @@ In the development area, I work with automation of networking tasks, administrat
 
 #### Programming and scripting skills:
 
-* `9` - Shell/Bash
+* `8` - Shell/Bash
 * `6` - Python3
 * `3` - JavaScript
 * `2` - PowerShell
