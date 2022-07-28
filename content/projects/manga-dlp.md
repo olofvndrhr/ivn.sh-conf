@@ -1,7 +1,7 @@
 +++
 title = "manga-dlp"
 description = "Manga download script in python3"
-date = "2021-12-22"
+date = "2022-07-25"
 type = ["default"]
 +++
 
@@ -22,9 +22,13 @@ I also created a docker container for it, built on my own base images.
 > More infos are available in the [README.md](https://github.com/olofvndrhr/manga-dlp/blob/master/README.md)
 > or for [docker](https://github.com/olofvndrhr/manga-dlp/blob/master/docker/README.md)
 
-Features (summary):
+**Feature summary:**
+
 * Multiple mangas via a file with links
 * Ability to download all chapters available
-* Save as zip, cbz, pdf or folder
+* Save as zip, cbz, cbr, pdf or folder
 * Add volume information
 * Select language
+* [Docker image](https://hub.docker.com/repository/docker/olofvndrhr/manga-dlp)
+* [PyPi package](https://pypi.org/project/manga-dlp/)
+* etc.
