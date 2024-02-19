@@ -7,26 +7,26 @@ type = ["default"]
 
 ---
 
-## Docker baseimages for app deployment
+## Docker base-mages for container deployments
 
-#### https://github.com/olofvndrhr/docker-baseimages
+> the code for this project is hosted on my private gitea instance
 
 This is a relatively small project.
 
-I thought, that if I deploy my apps with docker, then I should also create the base container images for it.
-So I created a normal and slim version.
-Both of them feature the [s6 supervisor](https://github.com/just-containers/s6-overlay) and cron.
-The normal version also has some commonly used tools bundled with it.
+As i deploy quite a few containers myself, some of them eventually have be customized.
+For this use case i created my own base-image, to have a common starting point.
+The image uses the [s6 supervisor](https://github.com/just-containers/s6-overlay) and already has cron installed.
+It also has some commonly used tools bundled with it. So a perfect image for my use cases.
 
-S6 is really practical, because you can map the UID and GID of every service you run in your container.
-Also, the services are always supervised, so they will restart if they fail.
+The S6 supervisor is also really practical, because you can map the UID and GID of every service you run in your container.
+And the services are always supervised, so they will restart if they fail.
 
-Later I also added a base version without the [s6 supervisor](https://github.com/just-containers/s6-overlay)
-for use cases which don't require supervision of the application.
+Later i created some more variants of the image, one without `s6`, one with `nginx` preinstalled and one with `nginx+php`.
 
-> Snippet to map the UID and GID for the default user `abc` in a docker-compose file
+> `compose.yml` snippet to map the UID and GID for the default user `abc` in a docker-compose file
+
 ```yml
-  environment:
+environment:
     - PUID=
     - PGID=
 ```

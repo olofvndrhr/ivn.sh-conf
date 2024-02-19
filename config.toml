@@ -1,8 +1,8 @@
-baseurl         = "https://ivn.sh"
-title           = "ivn.sh - Ivan Schaller"
-languageCode    = "en-us"
-paginate        = 10
-timeZone        = "Europe/Zurich"
+baseurl      = "https://ivn.sh"
+title        = "ivn.sh - Ivan Schaller"
+languageCode = "en-us"
+paginate     = 10
+timeZone     = "Europe/Zurich"
 
 archetypeDir = "archetypes"
 contentDir   = "content"
@@ -15,101 +15,99 @@ buildFuture  = false
 buildExpired = false
 canonifyURLs = true
 
-enableRobotsTXT = true
-enableGitInfo   = false
-enableEmoji     = true
+enableRobotsTXT                      = true
+enableGitInfo                        = false
+enableEmoji                          = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = true
-disableSitemap = false
-disable404     = false
-disableHugoGeneratorInject = false
+disableRSS                           = true
+disableSitemap                       = false
+disable404                           = false
+disableHugoGeneratorInject           = false
 
 disableKinds = ["taxonomy", "term", "taxonomyTerm"]
 
 copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
-
 [taxonomies]
-  category = "categories"
-  tag = "tags"
+category = "categories"
+tag      = "tags"
 
 [author]
-  name = "Ivan Schaller"
+name = "Ivan Schaller"
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+dateform        = "Jan 2, 2006"
+dateformShort   = "Jan 2"
+dateformNum     = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04"
 
-  # Subtitle for home
-  homeTitle = "Ivan Schaller"
-  homeSubtitle = "DevOps Engineer | Network Engineer"
-  homeLinktext = "Find or contact me on other platforms"
+# Subtitle for home
+homeTitle    = "Ivan Schaller"
+homeSubtitle = "DevOps Engineer | Network Engineer"
+homeLinktext = "Find or contact me on other platforms"
 
-  # Set a background for the homepage
-  # backgroundImage = "assets/images/background.jpg"
+# Set a background for the homepage
+# backgroundImage = "assets/images/background.jpg"
 
-  # With this option on, the page user is able to set the scheme he wants.
-  enableThemeToggle = true
+# With this option on, the page user is able to set the scheme he wants.
+enableThemeToggle = true
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = true
+# Set disableReadOtherPosts to true in order to hide the links to other posts.
+disableReadOtherPosts = true
 
-  # Enable sharing buttons, if you like
-  enableSharingButtons = false
+# Enable sharing buttons, if you like
+enableSharingButtons = false
 
-  enableGlobalLanguageMenu = false
+enableGlobalLanguageMenu = false
 
-  # Metadata mostly used in document's head
-  description = "Personal site of Ivan Schaller"
-  keywords = "homepage, blog"
-  images = [""]
+# Metadata mostly used in document's head
+description = "Personal site of Ivan Schaller"
+keywords    = "homepage, blog"
+images      = [""]
 
-  [params.logo]
-    logoMark     = ">"
-    logoText     = "ivn.sh - Ivan Schaller"
-    logoHomeLink = "/"
+[params.logo]
+logoMark     = ">"
+logoText     = "ivn.sh - Ivan Schaller"
+logoHomeLink = "/"
 
-  [params.footer]
-    trademark = true
-    rss = false
-    copyright = true
-    author = true
+[params.footer]
+trademark = true
+rss       = false
+copyright = true
+author    = true
 
-    topText = []
+topText = []
 
 # Menu entrys
 [[menu.main]]
-  identifier = "about"
-  name       = "About"
-  url        = "/about"
-  weight     = 1
-  [menu.main.params]
-    class = 'bold'
+identifier = "about"
+name       = "About"
+url        = "/about"
+weight     = 1
+[menu.main.params]
+class = 'bold'
 
 [[menu.main]]
-  identifier = "projects"
-  name       = "Projects"
-  url        = "/projects"
-  weight     = 2
+identifier = "projects"
+name       = "Projects"
+url        = "/projects"
+weight     = 2
 
 [[menu.main]]
-  identifier = "contact"
-  name       = "Contact"
-  url        = "/contact"
-  weight     = 3
+identifier = "contact"
+name       = "Contact"
+url        = "/contact"
+weight     = 3
 
 [[menu.main]]
-  identifier = "links"
-  name       = "Links"
-  url        = "https://links.ivn.sh/"
-  weight     = 4
-
+identifier = "links"
+name       = "Links"
+url        = "https://links.ivn.sh/"
+weight     = 4
 
 [[params.social]]
-  name = "email"
-  url = "mailto:ivan@schaller.sh"
+name = "email"
+url  = "mailto:ivan@schaller.sh"
 [[params.social]]
-  name = "github"
-  url = "https://github.com/olofvndrhr"
+name = "github"
+url  = "https://github.com/olofvndrhr"

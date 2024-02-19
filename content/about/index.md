@@ -14,45 +14,59 @@ My work is a combination of Operation in Networking and Development in Automatio
 
 ---
 
-My main task is the operation of layer 3 site to site vpn's for different customers. It is a managed service, so reconfiguration,
-troubleshooting or other related tasks are my daily business. The services heavily uses BGP to propagate all the networks from the different sites to each other, and vrf's to separate different vpn's on the same device.
+The main task in our team is the operation of a bgp-mpls core for businesses across switzerland and a few over the top services for it.
 
-I work mostly with Cisco networking equipment, and from configuration to diagnostics I use about every aspect of it.
+I work mostly with cisco and juniper networking equipment, and from configuration to diagnostics I use about every aspect of it.
 
-In the development area, I work with automation of networking tasks, administrative tasks and "small" internal application development.
+On the development side, I work with the automation of networking tasks and building "small" internal applications.
 
 ---
 
-### My skills: (`Rated from 1 to 10`)
+### My (subjective) skills:
 
 #### Languages
 
-* `10` - German
-* `7` - English
-* `3` - French
+-   German
+    ![](https://geps.dev/progress/100)
+
+-   English
+    ![](https://geps.dev/progress/85)
 
 #### Networking skills
 
-* `8` - Routing & Switching
-* `7` - Fiber/xDSL technologies
-* `7` - Cisco IOS-X(E/R)
-* `7` - Troubleshooting
-* `6` - BGP
+-   Routing & Switching
+    ![](https://geps.dev/progress/85)
 
-#### Other skills
+-   Cisco IOS-X(E/R)
+    ![](https://geps.dev/progress/80)
 
-* `8` - Linux (various areas)
-* `7` - Docker
-* `6` - VMware vSphere Suite
-* `6` - CI/CD (Drone, Jenkins, Woodpecker)
-* `6` - Git (GitHub, Gitea, Bitbucket)
+-   Hardware knowledge
+    ![](https://geps.dev/progress/75)
+
+-   Fiber technologies
+    ![](https://geps.dev/progress/70)
 
 #### Programming and scripting skills:
 
-* `8` - Shell/Bash
-* `6` - Python3
-* `3` - JavaScript
-* `2` - PowerShell
+-   Python3
+    ![](https://geps.dev/progress/80)
+
+-   Shell/Bash
+    ![](https://geps.dev/progress/80)
+
+-   Vanilla JavaScript
+    ![](https://geps.dev/progress/40)
+
+#### Other skills
+
+-   Linux (various areas)
+    ![](https://geps.dev/progress/80)
+
+-   Docker/Container
+    ![](https://geps.dev/progress/75)
+
+-   Git + CI/CD
+    ![](https://geps.dev/progress/60)
 
 ---
 

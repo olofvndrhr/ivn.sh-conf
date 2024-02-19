@@ -7,7 +7,7 @@ type = ["default"]
 
 ---
 
-## Manga download script written in python3
+## Manga downloader written in python3
 
 #### https://github.com/olofvndrhr/manga-dlp
 
@@ -17,18 +17,19 @@ which didn't include multiple mangas, or all chapters at the same time.
 So I took inspiration from mangadex-dl and wrote a script myself.
 It includes all my needs and is extendable for other sites too.
 
-I also created a docker container for it, built on my own base images.
+I also created a docker container for it, built on my own base-image.
 
-> More infos are available in the [README.md](https://github.com/olofvndrhr/manga-dlp/blob/master/README.md)
-> or for [docker](https://github.com/olofvndrhr/manga-dlp/blob/master/docker/README.md)
+> More infos are available on the official docs: https://manga-dlp.ivn.sh/
 
 **Feature summary:**
 
-* Multiple mangas via a file with links
-* Ability to download all chapters available
-* Save as zip, cbz, cbr, pdf or folder
-* Add volume information
-* Select language
-* [Docker image](https://hub.docker.com/repository/docker/olofvndrhr/manga-dlp)
-* [PyPi package](https://pypi.org/project/manga-dlp/)
-* etc.
+-   Multiple mangas via a file with links
+-   Ability to download all chapters available
+-   Save as zip, cbz, cbr, pdf or folder
+-   Add metadata via the [comicinfo](https://anansi-project.github.io/docs/comicinfo/schemas/v2.0) format
+-   Multi-language support
+-   Volume support
+-   Custom event hooks
+-   [Docker image](https://hub.docker.com/repository/docker/olofvndrhr/manga-dlp)
+-   [PyPi package](https://pypi.org/project/manga-dlp/)
+-   etc.

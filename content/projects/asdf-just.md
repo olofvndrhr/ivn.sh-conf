@@ -17,6 +17,7 @@ It lets you install multiple versions of the same tool at once and change the us
 I also needed the tool [just](https://github.com/casey/just), which is like [make](https://www.gnu.org/software/make/),
 but more for automation and less for compiling.
 
-But as the current plugin for just was not working, i wrote my own one and created a [pull-request](https://github.com/asdf-vm/asdf-plugins/pull/629) for the official plugin
+But as the current plugin for `just` was not working, i wrote my own one and created a [pull-request](https://github.com/asdf-vm/asdf-plugins/pull/629) in the official plugin repository.
 repository of asdf.
+
 The [PR](https://github.com/asdf-vm/asdf-plugins/pull/629) was quickly merged, and now it is an official asdf plugin.
