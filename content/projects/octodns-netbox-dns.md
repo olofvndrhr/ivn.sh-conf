@@ -1,7 +1,7 @@
 +++
 title = "octodns-netbox-dns"
 description = "netbox-plugin-dns source for octodns"
-date = "2024-01-01"
+date = "2023-11-09"
 type = ["default"]
 +++
 
@@ -11,4 +11,7 @@ type = ["default"]
 
 #### https://github.com/olofvndrhr/octodns-netbox-dns
 
-todo
+An updated version of: https://github.com/jcollie/octodns-netbox-dns
+
+The new commits include some new features, bugfixes and a new build system for the package.
+It was also published to pypi.
